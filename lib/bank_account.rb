@@ -9,11 +9,11 @@ class BankAccount
   end
 
   def deposit(amount)
-    account += amount
+    @balance += amount
   end
 
   def display_balance
-    balance
+    @balance
   end
 
   def valid?(status)
