@@ -27,7 +27,4 @@ class BankAccount
     account.clear
   end
 
-
-
-
 end
