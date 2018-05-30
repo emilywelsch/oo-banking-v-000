@@ -1,22 +1,27 @@
 class BankAccount
   attr_reader :name
+  account = []
 
-  def initialize(bank_account)
-    @bank_account = bank_account
-    balance = "1000"
-    status = "open"
+  def initialize(name)
+    @name = name
+    balance = 1000
+    status == "open"
   end
 
-  def deposit
+    def deposit(amount)
+      account += amount
+    end
+
+    def display_balance
+      balance
+    end
+
+    def valid?(status)
+      status == "open" if balance >= 0
+    else status == "closed"
+    end
   end
 
-  def display_balance
-  end
 
-  def valid?
-  end
 
-  def close_account
-  end
-  
 end
