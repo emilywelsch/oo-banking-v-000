@@ -24,7 +24,7 @@ class BankAccount
   end
 
   def close_account
-    account.clear
+    @balance.clear
   end
 
 end
