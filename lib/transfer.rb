@@ -31,6 +31,7 @@ class Transfer
     else
       @status = "rejected"
       return "Reverse transfer rejected. Please contact bank representative."
+    end
   end
 
 
