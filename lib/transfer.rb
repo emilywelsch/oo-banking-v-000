@@ -1,10 +1,7 @@
 class Transfer
-  attr_accessor :sender, :receiver
+  attr_accessor :sender, :receiver, :transfer_amount
 
-  def initialize(transfer)
-    @transfer = transfer
-    status = "pending"
-    transfer_amount = "transfer_amount"
+  def initialize
   end
 
   def valid?
@@ -16,5 +13,5 @@ class Transfer
   def reverse_transfer
   end
 
-
+  
 end
