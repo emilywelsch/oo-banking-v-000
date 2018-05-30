@@ -2,6 +2,7 @@ class Transfer
   attr_accessor :sender, :receiver, :transfer_amount
 
   def initialize
+    status == "open"
   end
 
   def valid?
