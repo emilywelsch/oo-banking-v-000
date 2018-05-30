@@ -20,14 +20,13 @@ class BankAccount
       if balance >= 0
         status = "open"
       else status = "closed"
+      end
   end
 
   def close_account
     account.clear
   end
 
-
-end
 
 
 
