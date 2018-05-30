@@ -18,8 +18,8 @@ class BankAccount
 
   def valid?(status)
       if balance >= 0
-        status == "open"
-      else status == "closed"
+        status = "open"
+      else status = "closed"
   end
 
   def close_account
